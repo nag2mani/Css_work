@@ -1,0 +1,39 @@
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        border: 3.5px solid black;
+        border-radius: 10px;
+        width: 50vw;
+        height: 125vh;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .spce {
+        margin: 8px;
+        text-align: center;
+    }
+
+    li,
+    h5 {
+        font-size: 17.5px;
+    }
+
+    h5 {
+        margin: 1px;
+    }
+
+    .section2 div,
+    h3,
+    h5,
+    ul,
+    li {
+        margin-left: 15px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }

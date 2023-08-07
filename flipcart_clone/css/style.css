@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2874f0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 53px;
+    width: 1510px;
+}
+
+.margin_head{
+    margin: 0 21px;
+    color: #2874f0;
+    font-size: 13px;
+    font-weight: bold;
+}
+.xx {
+    margin: -13px;
+    font-size: 13px;
+    margin-top: -5px;
+}
+
+input{
+    border-radius: 5px
+}
+
+input ::placeholder, input{
+    font-size: 14px;
+}
+
+header div input {
+    height: 33px;
+    width: 555px;
+    margin-left: 1px;
+}
+
+button{
+    height: 31px;
+    width: 100px;
+    color: white;
+    margin-left: 10px;
+}
+
+header img{
+    height: 20px;
+}
+
+.hed{
+    color: white;
+    font-size: 18px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    width: 100vw;
+}
+
+.txt1{
+    text-align: center;
+    font-size: 15px;
+}
+
+.container div{
+    margin: auto 8px;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second img{
+    width: 95%;
+}
+
+.third, .fourth, .fifth{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top:13px solid rgb(245, 241, 241);
+}
+
+.txt{
+    text-align: center;
+    font-size: 15px;
+}
+
+.third div, .fourth div, .fifth div{
+    margin: auto 30px;
+}
+
+footer{
+    height: 40px ;
+    background-color: rgb(41, 117, 224);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
