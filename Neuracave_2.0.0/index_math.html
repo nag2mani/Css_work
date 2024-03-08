@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grade Calculator</title>
+  <link rel="stylesheet" type="text/css" href="styles_math.css">
+  <style>
+    body {
+      /* background-image: url('bg11.jpg'); */
+      background-color: rgb(181, 239, 65);
+      background-repeat: no-repeat; /* Prevent the image from repeating */
+      background-size: cover ;
+      background-position: center center;
+    }
+</style>
+</head>
+<body>
+  <h1>Welcome To Grade Calculator</h1>
+  <label for="x1-input">Enter the Number of free Hours:</label>
+  <input type="number" id="x1-input">
+
+  <label for="x2-input">Entre your Health from 1 to 5:</label>
+  <input type="number" id="x2-input">
+
+  <label for="x3-input">Number of days you were absent:</label>
+  <input type="number" id="x3-input">
+
+  <label for="x4-input">Entre Your second last Grade:</label>
+  <input type="number" id="x4-input">
+
+  <label for="x5-input">Enter Your last Grade:</label>
+  <input type="number" id="x5-input">
+<div>
+  <button onclick="calculate()">Calculate</button>
+  <p id="result"></p>
+</div>
+  <script src="script_math.js"></script>
+
+  <footer>
+    <div>
+        <h2>
+            <marquee behavior="" direction="right"> Copyright &copy; Nagmani Kumar 2023. All rights reserved.</marquee>
+        </h2>
+    </div>
+</footer>
+</body>
+</html>
+

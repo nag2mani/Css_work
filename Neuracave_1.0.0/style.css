@@ -1,0 +1,339 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+	font-family: monospace;
+    background-color: black;
+}
+:root{
+	--row-height:50px;
+}
+#row{
+	display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#row::before {
+	content: "";
+	background-color: black;
+	opacity: 0.2;
+	position: absolute;
+	z-index: -1;
+	top: 0px;
+	height: 100%;
+	width: 100%;
+
+}
+#row ul {
+	padding-left: 20px;
+	margin-top: 36px;
+	display: flex;
+    font-family: cursive;
+}
+#row ul li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+#row ul li a{
+    display: block;
+    color: beige;
+	font-size: larger;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 3px 25px;
+	transition-property:all;
+	transition-duration: 2s;
+}
+#row ul li a:hover{
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 3px 25px;
+}
+.logo img{
+	height: 80px;
+	margin: 10px 20px;
+	z-index: -1;
+}
+#hero {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 600px;
+	flex-direction: column;
+	padding: 5px 182px;
+	font-family: cursive;
+}
+
+#hero::before{
+	content: "";
+	position: absolute;
+	background: url(assets/hologramimg.jpg) no-repeat center center/cover;
+	z-index: -1;
+	top: 0px;
+	opacity: 0.9;
+	height: 110%;
+	width: 100%;
+}
+
+h1 {
+	font-family: cursive;
+	color: white;
+	text-transform: uppercase;
+	font-size: 3.6rem;
+	text-align: center;
+	margin-top: 320px;
+	text-shadow: 4px 4px 4px black;
+}
+.button{
+	justify-content: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+.button1{
+	text-decoration: none;
+	margin-top: 20px;
+	text-align: center;
+	color: black;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(4, 4, 65);
+	border-radius: 11px;
+	padding: 3px 25px;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+.button2{
+	text-decoration: none;
+	margin-top: 20px;
+	text-align: center;
+	color: black;
+	background-color: rgb(255, 255, 255);
+	border: 2px solid rgb(4, 4, 65);
+	border-radius: 11px;
+	padding: 3px 25px;
+	cursor: pointer;
+	font-size: 1.5rem;
+}
+.button1:hover,.button2:hover{
+	cursor: pointer;
+	background-color: rgb(188, 188, 236);
+}
+.page2{
+	margin-top: 134px;
+    font-family: cursive;
+    font-size: 3.2rem;
+    padding: 12px;
+    text-align: center;
+}
+#Service-container::before{
+	content: "";
+	position: absolute;
+	margin-top: 0px;
+	z-index: -1;
+	background: url(assets/ai-gf9d14d8a9_1920.jpg) no-repeat center center/cover;
+	width: 100%;
+	height: 120%;
+	opacity: 0.9;
+}
+#services{
+    margin: 34px;
+    display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
+	align-items: center;
+}
+
+
+#services .box{
+	font-family: cursive;
+    border: 2px solid brown;
+    height: 639px;
+	width: 220px;
+    padding: 42px;
+    margin: 2px 105px;
+    border-radius: 24px;
+    background-color: #f2f2f2;
+    align-items: center;
+    color: black;
+}
+#services .box img{
+    display: block;
+    margin: auto;
+}
+.h-secondary{
+    font-size: 2.8 rem;
+	text-align: center;
+    padding: 12px;
+    flex-direction: column;
+    font-family: cursive;
+}
+
+.about {
+	background-image: url(assets/DSC_0036.JPG);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.form input, textarea {
+	font-size: 20px;
+	text-decoration: none;
+	outline: none;
+	width: 70%;
+	height: 60px;
+	padding-left: 10px;
+	border-radius: 6px;
+	border: none;
+	margin: 5px 0;
+}
+
+.form input.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    width: 71%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+ }
+
+input[type=number]::-webkit-inner-spin-button,
+  input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+ }
+
+ #Aitools{
+    font-size: medium;
+    color: beige;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .subject {
+ 	height: 150px;
+ 	color: black;
+ }
+
+ #services{
+	
+    margin: 34px;
+    display: flex;
+}
+
+ .h-secondary{
+    font-size: 2.8 rem;
+    padding: 12px;
+    flex-direction: column;
+    font-family: cursive;
+}
+ #services .box{
+    border: 2px solid brown;
+    /* display: flex; */
+    flex-direction: column;
+    padding: 32px;
+    margin: 2px 55px;
+    border-radius: 24px;
+    background-color: #f2f2f2;
+    align-items: center;
+    color: #000000;
+}
+.container {
+	margin-top: 59px;
+	/* margin-left: 210px; */
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 280px 202px 209px 305px;
+	;
+	grid-gap: 2rem;
+}
+.top{
+	font-family: cursive;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	font-size: 3.6rem;
+	margin-top: 180px;
+}
+
+.boxes {
+	font-family: cursive;
+	height: 120px;
+	width: 200px;
+	font-size: 25px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-radius: 19px;
+	justify-content: center;
+	color: rgb(59, 5, 59);
+	background-color: rgb(204, 177, 204);
+	border: 2px solid rgb(58, 2, 58);
+	margin: 5px;
+	box-shadow: 12px 12px 4px 4px rgb(231, 201, 231);
+}
+#contact{
+	
+	position: relative;
+}
+#contact::before{
+	content: "";
+	background: url(assets/back.jpg) no-repeat center center/cover;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+.page4{
+	margin-top: 100px;
+	color: rgb(247, 242, 242);
+    font-family: cursive;
+    font-size: 2.2rem;
+    padding: 12px;
+    text-align: center;
+	text-shadow: 2px 2px 8px rgb(16, 16, 21);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1px 22px;
+}
+
+@media
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi) {
+  	.blog {
+    	background-image: url(assets/banner-texture@2x.png) !important;
+  	}
+
+  	.faq {
+    	background-image: url(assets/img-prop-type@2x.jpg) !important;
+  	}
+}
+
+

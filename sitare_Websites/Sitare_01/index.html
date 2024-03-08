@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitare University</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Itim&family=Poppins:wght@100;200;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <!-- <i class="fa-solid fa-xmark"></i> -->
+                <!-- <i class="fa fa-rectangle-xmark"></i> -->
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURCES</a></li>
+                    <li><a href="">PEOPLE</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+                
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+            <!-- <i class="fa-regular fa-bars"></i> -->
+        </nav>
+
+    <div class="text-box">
+        <h1>Sitare University</h1>
+        <p>To ensure that the brightest minds in the world get an opportunity to study Computer Science, leaders from Silicon Valley.</p>
+        <a href="" class="hero-btn">Visit to know more</a>
+    </div>
+
+    </section>
+
+<!-- ------from here for courses section----- -->
+<section class="course">
+    <h1>Courses at Sitare</h1>
+    <p>Sitare University will focus on five specialized areas, especially relevant within Computer Science</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Artificial Inteligence</h3>
+            <p>With focus on Machine Learning, Computer Vision, Natural Language Processing, and Deep Learning.</p>
+        </div>
+        <!-- <div class="course-col">
+            <h3>Systems</h3>
+            <p>With focus on Cloud Computing, Operating Systems, Computer Networks, Data Management, and the Modern Internet.</p>
+        </div> -->
+        <div class="course-col">
+            <h3>Human-Computer Interaction</h3>
+            <p>With focus on iOS and Android Development, HCI Design, Computer Graphics and Imaging, and Web Applications.</p>
+        </div>
+        <div class="course-col">
+            <h3>Data Science</h3>
+            <p>With focus on data gathering, data quality, data pipelines, data in Machine Learning, data processing, and data visualization.</p>
+        </div>
+        <!-- <div class="course-col">
+            <h3>Computer Security</h3>
+            <p>With focus on Authentication, System Security, Network Security, Code Security, Privacy and Policy.</p>
+        </div> -->
+    </div>
+
+</section>
+
+
+<!-- ----------fest------------------ -->
+
+
+
+
+<section class="fest">
+    <h1>Sitare fests</h1>
+    <p>We enjoy so much with our facultys</p>
+
+    <!-- <div class="row"> -->
+        <div class="fest-col">
+            <img src="new_year.jpg" alt="new_year">
+            <div class="layer"></div>
+            <h3>NEW YEAR PARTY</h3>
+        </div>
+        </div>
+        <!-- <div class="row"> -->
+        <div class="fest-col">
+            <img src="preeti_maam.jpg" alt="new_year">
+            <div class="layer"></div>
+            <h3>ENGLISH CLASS</h3>
+        </div>
+        </div>
+    <!-- <div class="row"> -->
+        <div class="fest-col">
+            <img src="sonika_maam.jpg" alt="new_year">
+            <div class="layer"></div>
+            <h3>PYTHON CLASS</h3>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- <section class="course1">
+    <div class="row1">
+        <div class="course-col1">
+            <h3>Systems</h3>
+            <p>With focus on Cloud Computing, Operating Systems, Computer Networks, Data Management, and the Modern Internet.</p>
+        </div>
+         <div class="course-col1">
+            <h3>Computer Security</h3>
+            <p>With focus on Authentication, System Security, Network Security, Code Security, Privacy and Policy.</p>
+        </div>
+    </div>
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ----Java script for toggle Menu----- -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
